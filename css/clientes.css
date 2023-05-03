@@ -1,0 +1,21 @@
+body{
+    margin: 5%;
+}
+.bloco{
+    border: solid 1px ;
+    padding: 2%;
+}
+h1{
+    text-align: center;
+    border: solid 1px;
+}
+p{
+    border: solid 1px ;
+    display: flex;
+}
+img#p2{
+    align-items: flex-start;
+}
+img{
+    align-items: flex-end;
+}
