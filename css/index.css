@@ -22,14 +22,11 @@ nav#home ul li{
 }
 nav#home ul li a{
     text-decoration: none;
-    color: aliceblue;
-    background-color: #fb6f92;
-    padding: 15%;
-    border-radius: 10px;
+    color: #fb6f92;
 }
-nav#home ul li a:hover{
-    background-color: #fa406f;
-}
+/* nav#home ul li a:hover{
+    
+} */
 header{
     height: 70vh;
 }
@@ -129,11 +126,14 @@ p{
     align-items: center;
 }
 p img{
-    border: #fa406f solid 1px;
+    border-radius: 5px;
     width: 250px;
     height: 200px;
 }
 div#servicos{
     margin: 5%;
     padding: 5%;
+}
+div#servicos p{
+    background-color: #fdf4f4;
 }
