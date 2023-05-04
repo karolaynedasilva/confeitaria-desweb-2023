@@ -5,30 +5,7 @@ body{
     font-family: var(--font-body);
     background-color:#F6CFD3;
 }
-nav#home{
-    background-color:#F6CFD3;
-    padding: 2%;
-}
-nav#home ul {
-    
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-nav#home ul li{
-    list-style: none;
 
-
-}
-nav#home ul li a{
-    text-decoration: none;
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 800;
-}
-/* nav#home ul li a:hover{
-    
-}  */
 header{
     height: 70vh;
 }
@@ -36,7 +13,36 @@ header img{
     width: 100%;
     height: 100%;
 }
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #F6CFD3;
+    overflow: auto;
+}
+.navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
 
+
+/* .navbar a:hover {
+
+} */
+
+.active {
+background-color: #ff9cb5;
+}
+@media screen and (max-width: 500px) {
+.navbar a {
+    float: none;
+    display: block;
+}}
 h1{
     font-family: var(--font-titulo);
     color: #fb6f92;
@@ -46,7 +52,6 @@ h1{
     justify-content: center;
     align-items: center;
     font-size: 4rem;
-
 }
 
 .container{
@@ -117,7 +122,10 @@ div#tittle{
 
 }
 i img{
-    width: 15vh;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    padding: 2%;
 }
 article p{
     border: solid 1px ;
@@ -130,25 +138,39 @@ p{
     align-items: center;
 }
 p img{
-    border-radius: 5px;
+    border-radius: 10px;
     width: 250px;
     height: 200px;
+    padding: 2%;
 }
+
 div#servicos{
     margin: 5%;
     padding: 5%;
 }
 div#servicos p{
     background-color: #fdf4f4;
+    margin: 2%;
+    padding: 5%;
+    color: #fb6f92;
 }
-footer{
+/* footer{
     display: flex;
 
     justify-content: center;
     background-color: #FDF4F4;
-}
-footer img{
+} */
+/* footer img{
     width: 20%;
     height: 40vh;
     
-}
+} */
+
+/* div#foto {
+    height: 30vh;
+    width: 100%;
+    /* background: #e71d36 url("img/fot") left bottom  / cover no-repeat fixed ; */
+/* }
+div#foto img{
+    width: 100vw;
+} */ 

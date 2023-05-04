@@ -12,6 +12,23 @@
     padding: 0;
     box-sizing:border-box;
 }
+body{
+    margin: 5%;
+    background: var(--cor-back);
+    font-family: var(--font-body);
+
+}
+h1{
+    font-family: var(--font-titulo);
+    color: #fb6f92;
+    display: flex;
+    text-align: center;
+    margin: 4%;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+}
+
 :root{
     --cor-laranja: #f26419;
     --cor-back: #F6CFD3;
