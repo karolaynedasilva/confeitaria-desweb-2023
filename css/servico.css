@@ -60,7 +60,11 @@ section{
     grid-area: art5;
 }
 section .artigo p{
+    display: flex;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     padding: 3%;
     color: #949393;
 
@@ -71,6 +75,11 @@ section .artigo p{
     padding: 5%;
     background-color:#fff;
     border-radius: 5px;
+}
+.artigo p img{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 div a.botao{
     display: flex;

@@ -154,23 +154,15 @@ div#servicos p{
     padding: 5%;
     color: #fb6f92;
 }
-/* footer{
-    display: flex;
+div#servicos p:hover{
+    background-color:  #fd7a9b;
+    color: #fdf4f4;
+    transition: 0.3s all ease-in;
+    border: 1px solid #fff;
 
-    justify-content: center;
-    background-color: #FDF4F4;
-} */
-/* footer img{
-    width: 20%;
-    height: 40vh;
-    
-} */
+}
 
-/* div#foto {
-    height: 30vh;
-    width: 100%;
-    /* background: #e71d36 url("img/fot") left bottom  / cover no-repeat fixed ; */
-/* }
-div#foto img{
-    width: 100vw;
-} */ 
+a.link{
+    cursor: pointer;
+    text-decoration: none;
+}

@@ -41,3 +41,15 @@ h1{
     --font-cardapio: 'Raleway', sans-serif;
     --font-roboto: 'Roboto', sans-serif;
 }
+footer a{
+    font-family: var(--font-t
+    );
+    text-decoration: none;
+    color: #dbdbdb;
+    text-transform: uppercase;
+    background-color: #fd5982;
+    padding:2%;
+ 
+    border-radius: 5px;
+    font-size: 1rem;
+}
