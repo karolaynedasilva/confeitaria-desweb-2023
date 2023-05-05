@@ -1,0 +1,31 @@
+div section {
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+    height: 40%;
+    width: 60%;
+    margin: 5%;
+    padding: 2%;
+}
+div{
+    display: flex;
+    justify-content: space-around;
+}
+div img{
+    width: 100%;
+    height: 100;
+    grid-area: img;
+}
+h5{
+    grid-area: titulo;
+}
+span{
+    grid-area: span;
+}
+section{
+    display: grid;
+    grid-template:
+    'titulo' 
+    'span'
+    'img';
+}
